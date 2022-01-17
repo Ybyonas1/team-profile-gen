@@ -1,8 +1,11 @@
 # Team-Profile-Generator
 by: Yonas Woldemichael
+
 # 10 OOP: Team Profile Generator
 
-![Team Profile Generator](./assets/images/tpg.png)
+Here is a screenshot taken before a team has been generated.
+
+![Team Profile Generator](./assets/image/tpg1.png)
 
 
 ## Table of Contents
@@ -24,19 +27,16 @@ This assignment was also a great way for me to gain some hands on skills in usin
 4. The Team Profile Generator will prompt the neccessary questions via the terminal server using Node.js
 
 ## Visuals
-Here is a screenshot of a generated team profile
+Here is a screenshot of a generated team profile.
 
-![Team Profile Genrator](./assets/images/tpg.png)
-#
-Here is a screenshot taken towards the end when the time has run out & your initials are asked
-![Coding Quiz SS3](./assets/images/cdss3.png)
+![Team Profile Genrator](./assets/image/tpg.png)
 #
 
 ## Usage
-The Coding quiz really has no other use other than allowing me to practice and implement my javascript knowledge
+The Team Profile Generator's functionality and usage is very simple and can be used by anyone desiring to generate a profile for their team.
 
-[Link to the deplyed site](https://ybyonas1.github.io/code-quiz-assignment/)
+[Link to the deplyed site](https://ybyonas1.github.io/team-profile-gen/)
 
-[Repository](https://github.com/Ybyonas1/code-quiz-assignment)
+[Repository](https://github.com/Ybyonas1/team-profile-gen)
 
 Thank You.
