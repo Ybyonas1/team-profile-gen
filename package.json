@@ -16,10 +16,8 @@
     "url": "https://github.com/Ybyonas1/team-profile-gen/issues"
   },
   "homepage": "https://github.com/Ybyonas1/team-profile-gen#readme",
-  "dependencies": {
-    "inquirer": "^8.2.0"
-  },
   "devDependencies": {
-    "jest": "^27.4.5"
+    "inquirer": "^8.2.0",
+    "jest": "^27.4.7"
   }
 }
