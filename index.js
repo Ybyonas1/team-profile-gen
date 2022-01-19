@@ -44,7 +44,7 @@ const createManager = () => {
                 message: "What is the Team Managers Office Number?",
             }
         ]).then(function (answers) {
-            const manager = new Manager(answers.name, answers.id, answers.email, answers.officeNmber);
+            const manager = new Manager(answers.name, answers.id, answers.email, answers.officeNumber);
             // answers.type = 'Manager';
             teamMembers.push(manager);
             checkToAddMore();

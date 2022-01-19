@@ -1,5 +1,5 @@
 const Engineer = require('../lib/Engineer');
-const engineer = new Engineer('yonas', 123, 'yonas@email.com', 'ybyonas1')
+const engineer = new Engineer('yonas', '123', 'yonas@email.com', 'ybyonas1')
 
 it("Can instantiate Engineer instance", () => {
     const emp = new Engineer();
@@ -25,12 +25,12 @@ it("Test if the ID value matches the getId() method", () => {
 });
 
 it("Test if the email value matches the getEmail() method", () => {
-    expect(engineer.getEmail()).toBe('yonas@email');
+    expect(engineer.getEmail()).toBe('yonas@email.com');
 
 });
 
 it("Test if the Github value matches the getGithub() method", () => {
-    expect(engineer.getEmail()).toBe('ybyonas1');
+    expect(engineer.getGithub()).toBe('ybyonas1');
 
 });
 

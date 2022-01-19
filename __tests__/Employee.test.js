@@ -25,7 +25,7 @@ it("Test if the ID value matches the getId() method", () => {
 });
 
 it("Test if the email value matches the getEmail() method", () => {
-    expect(employee.getEmail()).toBe('yonas@email');
+    expect(employee.getEmail()).toBe('yonas@email.com');
 
 });
 

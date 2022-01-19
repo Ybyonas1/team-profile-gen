@@ -21,7 +21,7 @@ This assignment was also a great way for me to gain some hands on skills in usin
 
 ## Notes
 
-1. The Team Profile Generator will allow you to build 3 prolfiles for a manager, engineer, and intern
+1. The Team Profile Generator will allow you to build 3 profiles for a manager, engineer, and intern
 2. The Team Profile Generator will generate the profiles on an HTML page
 3. The each job selection has a unique color code.
 4. The Team Profile Generator will prompt the neccessary questions via the terminal server using Node.js

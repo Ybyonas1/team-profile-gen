@@ -1,5 +1,5 @@
 const Intern = require('../lib/Intern');
-const Intern = new Intern('yonas', 123, 'yonas@email.com', 'ECU')
+const intern = new Intern('yonas', 123, 'yonas@email.com', 'ECU')
 
 it("Can instantiate Intern instance", () => {
     const emp = new Intern();
@@ -9,7 +9,7 @@ it("Can instantiate Intern instance", () => {
 
 it("Test if the values entered match the constructor values", () => {
     expect(intern.name).toBe('yonas');
-    expect(intern.id).toBe('123');
+    expect(intern.id).toBe(123);
     expect(intern.email).toBe('yonas@email.com');
 
 });
@@ -20,12 +20,12 @@ it("Test if the name value matches the getName() method", () => {
 });
 
 it("Test if the ID value matches the getId() method", () => {
-    expect(intern.getId()).toBe('123');
+    expect(intern.getId()).toBe(123);
 
 });
 
 it("Test if the email value matches the getEmail() method", () => {
-    expect(intern.getEmail()).toBe('yonas@email');
+    expect(intern.getEmail()).toBe('yonas@email.com');
 
 });
 

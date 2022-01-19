@@ -1,5 +1,5 @@
 const Manager = require('../lib/Manager');
-const Manager = new Manager('yonas', 123, 'yonas@email.com', '1234')
+const manager = new Manager('yonas', 123, 'yonas@email.com', '1234')
 
 it("Can instantiate Manager instance", () => {
     const emp = new Manager();
@@ -9,7 +9,7 @@ it("Can instantiate Manager instance", () => {
 
 it("Test if the values entered match the constructor values", () => {
     expect(manager.name).toBe('yonas');
-    expect(manager.id).toBe('123');
+    expect(manager.id).toBe(123);
     expect(manager.email).toBe('yonas@email.com');
 
 });
@@ -20,12 +20,12 @@ it("Test if the name value matches the getName() method", () => {
 });
 
 it("Test if the ID value matches the getId() method", () => {
-    expect(manager.getId()).toBe('123');
+    expect(manager.getId()).toBe(123);
 
 });
 
 it("Test if the email value matches the getEmail() method", () => {
-    expect(manager.getEmail()).toBe('yonas@email');
+    expect(manager.getEmail()).toBe('yonas@email.com');
 
 });
 
